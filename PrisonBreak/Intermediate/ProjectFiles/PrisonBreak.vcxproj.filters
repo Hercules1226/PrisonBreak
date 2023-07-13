@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PrisonBreak.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A92DECF1-2014-45CE-9333-B5CB0CF213C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PrisonBreak.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PrisonBreakEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{2B3A426A-0B6D-48E3-9FD5-370EA69EBDAA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PrisonBreak">
+      <UniqueIdentifier>{BBE3AE07-D675-463A-B8F3-863815531B09}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PrisonBreak\PrisonBreak.Build.cs">
+      <Filter>Source\PrisonBreak</Filter>
+    </None>
+    <Filter Include="Source\PrisonBreak\Private">
+      <UniqueIdentifier>{626F080F-C83D-4592-B1A0-48C1C665BAD7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\CCTV.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\Door.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\Enemy.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\EnemyAIController.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\EnemyAnimInstance.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\EnemyFSM.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PlayerA.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PlayerAnimInstance.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PlayerA_Door.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PlayerB.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PlayerOneToPlayerTwo.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PlayerStateUI.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PrisonBreak.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PrisonBreakCharacter.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\PrisonBreakGameMode.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\triggerA.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PrisonBreak\Private\triggerB.cpp">
+      <Filter>Source\PrisonBreak\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PrisonBreak\Public">
+      <UniqueIdentifier>{AF2A9D98-190F-4EEE-82BE-024317318051}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\CCTV.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\Door.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\Enemy.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\EnemyAIController.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\EnemyAnimInstance.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\EnemyFSM.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PlayerA.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PlayerAnimInstance.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PlayerA_Door.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PlayerB.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PlayerOneToPlayerTwo.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PlayerStateUI.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PrisonBreak.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PrisonBreakCharacter.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\PrisonBreakGameMode.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\triggerA.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PrisonBreak\Public\triggerB.h">
+      <Filter>Source\PrisonBreak\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

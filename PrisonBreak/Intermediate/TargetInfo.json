@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PrisonBreak",
+			"Path": "C:\\Users\\sjso1\\Desktop\\PrisonBreak_BetaMaster\\Source\\PrisonBreak.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PrisonBreakEditor",
+			"Path": "C:\\Users\\sjso1\\Desktop\\PrisonBreak_BetaMaster\\Source\\PrisonBreakEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
